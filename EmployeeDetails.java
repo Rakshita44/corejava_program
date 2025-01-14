@@ -11,13 +11,13 @@ public class EmployeeDetails {
 		String employeeName;
 		String employeeAddress;
 		double employeeSalary;
-		
+		// Take employee details as input from the user
 		System.out.println("Enter Employee ID");
 		employeeId= scanner.nextInt();
 		scanner.nextLine();
 		
 		System.out.println("Enter Employee Name");
-		employeeName= scanner.nextLine();
+		employeeName= scanner.nextLine();// Read the employee name
 		
 		System.out.println("Enter Employee Address");
 		employeeAddress= scanner.nextLine();
