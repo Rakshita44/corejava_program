@@ -1,9 +1,11 @@
+/*Write a Java program to take Employee id,name,address & salary from user and display on to screen.*/
 package ANP;
 import java.util.Scanner;
 
-public class EmployeeDetails {
-
-	public static void main(String[] args) {
+public class EmployeeDetails 
+{
+	public static void main(String[] args) 
+	{
 		// Create a Scanner object to take input from the user
 		Scanner scanner= new Scanner(System.in);
 		// Declare variables to store employee information
@@ -11,6 +13,7 @@ public class EmployeeDetails {
 		String employeeName;
 		String employeeAddress;
 		double employeeSalary;
+		
 		// Take employee details as input from the user
 		System.out.println("Enter Employee ID");
 		employeeId= scanner.nextInt();
